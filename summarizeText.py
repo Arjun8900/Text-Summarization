@@ -10,8 +10,8 @@ from langchain.prompts import PromptTemplate
 model_name = "Falconsai/text_summarization"
 # model_name = "t5-base-finetuned-wikiSQL"
 
-tokenizer_local_location = f"/Users/arjunsingh.kanwal/Documents/CODE/Python/Tokenizers/{model_name}"
-model_local_location = f"/Users/arjunsingh.kanwal/Documents/CODE/Python/Models/{model_name}"
+tokenizer_local_location = f"/Users/arjunsingh.kanwal/Documents/CODE/Python/Text-Summarization/Tokenizer/{model_name}"
+model_local_location = f"/Users/arjunsingh.kanwal/Documents/CODE/Python/Text-Summarization/Model/{model_name}"
 
 # SAVE TOKENIZER
 tokenizer = AutoTokenizer.from_pretrained(model_name)

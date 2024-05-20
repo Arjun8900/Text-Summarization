@@ -13,13 +13,13 @@ model_name = "Falconsai/text_summarization"
 tokenizer_local_location = f"/Users/arjunsingh.kanwal/Documents/CODE/Python/Text-Summarization/Tokenizer/{model_name}"
 model_local_location = f"/Users/arjunsingh.kanwal/Documents/CODE/Python/Text-Summarization/Model/{model_name}"
 
-# SAVE TOKENIZER
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-tokenizer.save_pretrained(tokenizer_local_location)
+# SAVE TOKENIZER | Uncomment this for first time.
+# tokenizer = AutoTokenizer.from_pretrained(model_name)
+# tokenizer.save_pretrained(tokenizer_local_location)
 
-# SAVE MODEL
-model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-model.save_pretrained(model_local_location)
+# SAVE MODEL | Uncomment this for first time.
+# model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+# model.save_pretrained(model_local_location)
 
 
 # LOAD TOKENIZER && MODEL

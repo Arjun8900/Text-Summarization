@@ -1,1 +1,6 @@
+Model/*
+Tokenizer/*
 */.idea
+
+!Model/.placeholder
+!Tokenizer/.placeholder

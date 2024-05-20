@@ -9,6 +9,7 @@
 ## Description: 
 - In this repo, I'm using Langchain + Hugging-Face model. Models are downloaded from Hugging-Face, which are used for used for summarization of text.
 - This repo can be used offline as well. The Tokenizer and Model will be downloaded very first time, from next time onwards, this code will use the downloaded model.
+NOTE: Uncomment the Line 17-18 and Line 21-22 for first time, as it'll download the model in respective folder location.
 
 ## Saving model to local location 
 - Tokenizer will saved to Tokenizer folder. 
